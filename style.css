@@ -1,0 +1,32 @@
+h1 {
+	color: orange;
+}
+	
+p {
+	color:orange;
+	font-weight: 1000;
+	}
+
+a {
+	color: red;
+}
+
+.para_1_style {
+	color: black;
+	font-size: 16px;
+}
+.para_2_style {
+	color: orange;
+	font-size: 16px;
+}
+
+
+.red {
+	color: red;
+}
+.orange {
+	color: orange;
+}
+.yellow {
+	color: yellow;
+}
