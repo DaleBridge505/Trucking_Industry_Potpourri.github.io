@@ -19,8 +19,8 @@ a {color: blue;}
 .green {color: green;}
 
 .custom_padding {
-    padding-top: 5px;
-    padding-right: 20px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
     padding-left: 20px;
 }
