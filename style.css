@@ -10,7 +10,7 @@ a {color: blue;}
 .para_2_style {	color: orange;
 	font-size: 16px;}
 .para_3_style_hex {color: #00FF00;}
-.para_4_style_RGBA {color: rgba(255, 255, 0, 100%);}
+.para_4_style_RGBA {rgba(255, 165, 0, 100%);}
 .red {color: red;}
 .orange {color: orange;}
 .yellow {color: yellow;}
