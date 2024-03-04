@@ -17,3 +17,10 @@ a {color: blue;}
 .brown {color: brown;}
 .blue {color: blue;}
 .green {color: green;}
+
+.custom_padding {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
