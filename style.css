@@ -1,30 +1,112 @@
-h1 {color: orange;}
-	
-p {color: green;
-	font-weight: 1000;	}
-
-a {color: blue;}
-
-.para_1_style {	color: black;
-	font-size: 16px;}
-.para_2_style {	color: orange;
-	font-size: 16px;}
-.para_3_style_hex {color: #00FF00;}
-.para_4_style_RGBA {color: rgba(255, 255, 0, 100%);}
-.red {color: red;}
-.orange {color: orange;}
-.yellow {color: yellow;}
-.brown {color: brown;}
-.blue {color: blue;}
-.green {color: green;}
-
-.custom_padding {
-    padding-top: 15px;
-    padding-right: 150px;
-    padding-bottom: 15px;
-    padding-left: 20px;
+body {
+	background-image: url("images/tilec.png");
+	background-size: 2.5%;
 }
-table{border:3px solid black;}
+
+h1 {
+	color: orange;
+}
+
+table {
+	border: 3px solid black;
+	margin:auto;
+	text-align: center;
+}
+
+th {
+	background-color: orange;
+	font-size: 36px;
+}
+
+/*	
+p {
+	color:red;
+	font-weight: 1000;
+	}
+*/
+a {
+	color: white;
+}
+
+.form_bg {
+	background-color: #FFFFFFCC;
+	background-color: rgba(255, 255, 255, 80%);
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
+
+.para_1_style {
+	color: red;
+	font-size: 16px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+/*	border: dashed 10px purple;*/
+}
+.para_2_style {	color: orange;	font-size: 16px; /*	padding: 50px;*/ /*	border: dashed 10px purple;*/ 	margin: 20px;	border: 50px; }
+
+
+.red {
+	color: red;
+}
+.orange {
+	color: orange;
+}
+.yellow {
+	color: yellow;
+}
+
+.header {
+	border: 1px solid black;
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 50%);
+}
+
+.nav {
+	border: 1px solid black;
+	background-color: cyan;
+	background-image: url("images/tilec.png");
+	background-size: 2%;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+.red_circle {
+	width: 100px;
+	height: 100px;
+	background: radial-gradient(circle, green, crimson, orange, blue);
+	border-radius: 0px 25px 0px 25px;
+	color: white;
+	border: 10px dashed black;
+	margin-left: 30%;
+}
+
+.article {
+	float: left;
+	min-width: 59%;
+	min-height: 300px;
+	border: 1px solid black;
+}
+
+.section {
+	border: 1px solid black;
+}
+
+.aside {
+	min-width: 39%;
+	min-height: 300px;
+	float: right;
+	border: 1px solid black;
+	background-color: #FFFFFFCC;
+}
+
+
 .footer {
 	border: 1px solid black;
+	background-color: #FFFFFFCC;
 }
