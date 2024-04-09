@@ -104,9 +104,30 @@ iframe {
 	border: 1px solid black;
 	background-color: #FFFFFFCC;
 }
-
-
 .footer {
 	border: 1px solid black;
 	background-color: #FFFFFFCC;
 }
+a:hover {
+    color: crimson;
+}
+}
+a:active {
+    border: 3px solid crimson;
+}
+a:visited {
+  color: purple;
+}
+a:active {
+    border: 3px solid crimson;
+}
+button:focus {
+    border: 3px solid blue;
+}
+
+input:focus {
+    border: 3px solid blue;
+}
+
+
+
