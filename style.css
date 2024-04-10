@@ -128,6 +128,46 @@ button:focus {
 input:focus {
     border: 3px solid blue;
 }
+.play_btn {
+	color: green;
+	font-size: 40px;
+}
+
+.play_btn:hover {
+	color: black;
+	font-size: 40px;
+}
+
+.pause_btn {
+	color: gray;
+	font-size: 50px;
+}
+
+.pause_btn:hover {
+	color: black;
+	font-size: 50px;
+}
+
+.h_img {
+	width: 200px;
+}
+
+.h_img:hover {
+	transform: scale(.9);
+}
+
+.player {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 200px;
+	width: 200px;
+	background-color: #DDDDDDDD;
+	text-align: center;
+}
+
+.vert_slider {
+	transform: rotate(270deg);
+}
 
 
 
