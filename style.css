@@ -167,6 +167,10 @@ input:focus {
 .vert_slider {
 	transform: rotate(270deg);
 }
+}
 
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 
