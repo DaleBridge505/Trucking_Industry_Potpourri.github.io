@@ -167,6 +167,12 @@ input:focus {
 .vert_slider {
 	transform: rotate(270deg);
 }
+.zoom {
+  padding: 50px;
+   transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
 .zoom:hover {
