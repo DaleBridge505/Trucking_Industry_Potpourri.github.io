@@ -178,11 +178,7 @@ input:focus {
 .zoom:hover {
   transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-	.thumbnail { 
-top:-50px; 
-left:-35px; 
-display:block; 
-z-index:999; 
+.thumbnail { 
 cursor: pointer; 
 -webkit-transition-property: all; 
 -webkit-transition-duration: 0.3s; 
