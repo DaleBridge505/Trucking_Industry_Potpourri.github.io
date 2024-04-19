@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<!link to CSS style shet>
+<--!link to CSS style shet-->
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<!Basic Carrier Information:Name, City, St, MC#, DoT#>
+<--!Basic Carrier Information:Name, City, St, MC#, DoT#-->
 <head>
   <p>Branch Motor Express<br>New York, NY<br>MC-unknown DoT unknown</p><br>
-<! Company website, "About section">
+<--! Company website, "About section"-->
   
- <!Company stock price>
+ <--!Company stock price-->
  
  <!Company annual report>
  
