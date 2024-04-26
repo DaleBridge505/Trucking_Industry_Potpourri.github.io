@@ -172,18 +172,8 @@ input:focus {
 .zoom:hover {
   transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-.thumbnail { 
-	right:+525;
-cursor: pointer; 
--webkit-transition-property: all; 
--webkit-transition-duration: 0.3s; 
--webkit-transition-timing-function: ease; 
-} 
-
-/*change the number below to scale to the appropriate size*/ 
-.thumbnail:hover { 
-transform: scale(5); 
-	.img {
+/* expand thumbnail */
+.img {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
@@ -193,8 +183,6 @@ transform: scale(5);
 /* Add a hover effect (blue shadow) */
 .img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
 }
 
 
