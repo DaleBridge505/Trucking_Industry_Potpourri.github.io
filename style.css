@@ -76,15 +76,6 @@ iframe {
 	background-position: center bottom;
 }
 
-.red_circle {
-	width: 100px;
-	height: 100px;
-	background: radial-gradient(circle, green, crimson, orange, blue);
-	border-radius: 0px 25px 0px 25px;
-	color: white;
-	border: 10px dashed black;
-	margin-left: 30%;
-}
 
 .article {
 	float: left;
@@ -184,5 +175,3 @@ img {
 .img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-
-
