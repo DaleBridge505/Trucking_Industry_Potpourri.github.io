@@ -7,10 +7,13 @@ h1 {
 	color: orange;
 }
 
-table {
-	border: 3px solid black;
-	margin:auto;
-	text-align: center;
+table{
+border-collapse:collapse;
+border:1px solid #FF0000;
+}
+
+table td{
+border:1px solid #FF0000;
 }
 
 th {
