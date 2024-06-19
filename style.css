@@ -1,3 +1,6 @@
+a:visited {
+  color: red;
+}
 body {
 	background-image: url("images/tilec.png");
 	background-size: 2.5%;
